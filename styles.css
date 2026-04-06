@@ -5,3 +5,10 @@ body {
 h1 {
   color: black;
 }
+
+nav.nav-links{
+    text-decoration: none;
+    color:rgb(195, 90, 90);
+    
+}
+
