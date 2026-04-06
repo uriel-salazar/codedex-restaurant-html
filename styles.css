@@ -80,3 +80,23 @@ body{
 .food-3{
   background-image: url("images/nigiri.jpg");
 }
+
+
+.container-order {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  height: 100vh;           /* full screen height */
+}
+
+.square {
+  border-radius: 15px;
+  width: 500px;
+  height: 500px;
+  background-color: rgb(222, 222, 232);
+}
+
+
+.square h2{
+  text-align: center;
+}
