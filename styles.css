@@ -8,7 +8,7 @@ body{
 }
 .navbar ul{
   list-style: none;
-  background-color: hsl(40, 71%, 67%);
+  background-color: hsla(37, 50%, 45%, 0.779);
   padding: 10px;
   margin: 0px;
   overflow: hidden;
@@ -39,6 +39,30 @@ body{
 }
 
 .navbar a:hover{
-  background-color: hsl(0, 0%, 15%);
+  background-color: hsla(36, 48%, 46%, 0.727);
 }
 
+
+
+.container{
+  display: flex;
+}
+
+.card{
+  background: gray;
+  width: 270px;
+  height: 400px;
+  margin:10px;
+  justify-content: center;
+}
+
+.card-image{
+  background-color: aqua;
+  height: 170px;
+  margin-bottom:15px;
+  background-size: cover;
+}
+
+.food-1{
+  background-image: url("images/Maki\ Sushi.jpg");
+}
