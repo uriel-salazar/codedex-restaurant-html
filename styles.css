@@ -4,7 +4,9 @@ body {
   margin:0px;
 }
 
-
+*{
+  box-sizing: border-box;
+}
 .navbar ul{
   list-style: none;
   background-color: hsla(54,70%,90%,1);
@@ -29,7 +31,7 @@ body {
 
 
 .navbar a img{
-  height: 70px;
+  height: 80px;
   width: 200px;
   object-fit: contain;
 
@@ -39,7 +41,6 @@ body {
   text-decoration:none;
   padding:5px 8px;
   display: inline-block;
-  text-align: center;
   gap:10px;
 
 }
@@ -63,10 +64,9 @@ body {
 .card{
   background: rgb(255, 255, 255);
   margin:20px;
-  width: 250px;
+  width: 300px;
   border:1px;
   justify-content:center;
-  text-align:center;
   border-radius: 15px;
   border-style:solid;
   
@@ -75,11 +75,11 @@ body {
 .card-image{
   background-color: rgb(251, 251, 251);
   height: 90px;
-  margin-bottom:15px;
+  margin-bottom:20px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 50%;
+  padding-top: 100%;
   border-radius: 15px 15px 0 0;
 }
 
@@ -99,6 +99,9 @@ body {
   background-image:url("images/Authentic\ Japanese\ Ramen\ with\ Rich\ Broth.jpg") ;
 }
 
+.food-5{
+  background-image:url(images/Koreanisches\ Bibimbap\ \(비빔밥\)\ Rezept\ _\ Authentisches\ und\ gesundes\ Abendessen.jpg);
+}
 
 .container-order {
   display: flex;
@@ -114,17 +117,14 @@ body {
   background-color: rgb(222, 222, 232);
 }
 
-body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin:0px;
-}
-
 
 .input number{
   color:blue;
 }
 
+.text-card{
+  padding: 15px;
+}
 
 .texttarea{
   display: flex;
