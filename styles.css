@@ -16,6 +16,9 @@ body {
   display: flex;
 } 
 
+
+
+
 .navbar ul li:first-child{
  margin-right: auto
 }
@@ -37,25 +40,31 @@ body {
   padding:5px 8px;
   display: inline-block;
   text-align: center;
-  gap:8px;
+  gap:10px;
 
 }
 
 .navbar a:hover{
   background-color: #fd7e502b; 
+  border-radius: 15px;
+  
 }
 
+.navbar a:active{
+  background-color: #fd7e503c;
+}
 
 
 .container{
   display: flex;
+  justify-content: center;
 }
 
 .card{
   background: rgb(255, 255, 255);
-  margin:15px;
-  width: 300px;
-  border:2px;
+  margin:20px;
+  width: 250px;
+  border:1px;
   justify-content:center;
   text-align:center;
   border-radius: 15px;
@@ -65,12 +74,12 @@ body {
 
 .card-image{
   background-color: rgb(251, 251, 251);
-  height: 170px;
+  height: 90px;
   margin-bottom:15px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 65%;
+  padding-top: 50%;
   border-radius: 15px 15px 0 0;
 }
 
@@ -86,16 +95,20 @@ body {
   background-image: url("images/nigiri.jpg");
 }
 
+.food-4{
+  background-image:url("images/Authentic\ Japanese\ Ramen\ with\ Rich\ Broth.jpg") ;
+}
+
 
 .container-order {
   display: flex;
   justify-content: center; /* horizontal */
   align-items: center;     /* vertical */
-  height: 100vh;           /* full screen height */
+  height: 90vh;           /* full screen height */
 }
 
 .square {
-  border-radius: 20px;
+  border-radius: 15px;
   width: 400px;
   height: 400px;
   background-color: rgb(222, 222, 232);
