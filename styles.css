@@ -4,12 +4,19 @@ body {
   margin:0px;
 }
 
+
+.menu-h1{
+  font-size:40px;
+  
+}
+
+
 *{
   box-sizing: border-box;
 }
 .navbar ul{
   list-style: none;
-  background-color: hsla(54,70%,90%,1);
+  background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
   padding: 10px;
   margin: 0px;
   overflow: hidden;
@@ -17,8 +24,6 @@ body {
   gap:45px;
   display: flex;
 } 
-
-
 
 
 .navbar ul li:first-child{
@@ -30,7 +35,7 @@ body {
 }
 
 
-.navbar a img{
+.navbar #logo-restaurant{
   height: 80px;
   width: 200px;
   object-fit: contain;
@@ -41,18 +46,18 @@ body {
   text-decoration:none;
   padding:5px 8px;
   display: inline-block;
-  gap:10px;
+  gap:20px;
 
 }
 
 .navbar a:hover{
-  background-color: #fd7e502b; 
+  background-color: #7c2e112b; 
   border-radius: 15px;
   
 }
 
 .navbar a:active{
-  background-color: #fd7e503c;
+  background-color: #ca491a3c;
 }
 
 
@@ -107,14 +112,15 @@ body {
   display: flex;
   justify-content: center; /* horizontal */
   align-items: center;     /* vertical */
-  height: 90vh;           /* full screen height */
+  height: 100vh;           /* full screen height */
 }
 
 .square {
   border-radius: 15px;
   width: 400px;
   height: 400px;
-  background-color: rgb(222, 222, 232);
+  padding:1px;
+  background-color: rgb(218, 188, 188);
 }
 
 
